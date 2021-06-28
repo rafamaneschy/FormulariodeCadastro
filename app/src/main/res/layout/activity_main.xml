@@ -27,18 +27,20 @@
         android:background="@color/white"
         android:ems="10"
         android:hint="Nome completo"
+        android:maxLength="40"
         android:inputType="textPersonName"
         android:padding="15dp" />
 
     <EditText
         android:id="@+id/editIdade"
-        android:layout_width="match_parent"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
         android:background="@color/white"
         android:ems="10"
         android:hint="Idade"
-        android:inputType="textPersonName"
+        android:maxLength="3"
+        android:inputType="number"
         android:padding="15dp" />
 
     <TextView
@@ -70,7 +72,7 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/bt_cadastrar"
+        android:id="@+id/bt_Cadastrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
